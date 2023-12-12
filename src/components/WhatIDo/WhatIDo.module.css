@@ -1,0 +1,134 @@
+.title {
+    flex-shrink: 0;
+    color: var(--primary-text-color);
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin: 10rem 0 5rem 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.workBox {
+    width: 349px;
+    height: 241px;
+    margin: 20px;
+    flex-shrink: 0;
+    background: var(--primary-text-background);
+    border: var(--primary-text-border);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.icon {
+    width: 57px;
+    flex-shrink: 0;
+    fill: var(--Green-2, #27AE60);
+    border-radius: 5px;
+}
+
+.boxText {
+    color: #535353;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: pre-line;
+}
+
+.hr {
+    width: 346px;
+    height: 5px;
+    flex-shrink: 0;
+}
+
+.skillsBox {
+    display: flex;
+    width: auto;
+    height: 235px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: -webkit-fill-available;
+    margin: 0 10em;
+    background: var(--primary-text-background);
+    border: var(--primary-text-border);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.percent {
+    color: var(--Gray-2, #4F4F4F);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skill {
+    color: var(--Green-2, #27AE60);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.light {
+    --primary-text-background: #fff;
+    --primary-text-border: 1px solid #000;
+    --primary-text-color: #333;
+}
+
+.dark {
+    --primary-text-background: #212121;
+    --primary-text-color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+    .workBox {
+        width: 260px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .skillsBox {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .percent {
+        font-size: 50px;
+    }
+    .skill {
+        font-size: 15px;
+    }
+}

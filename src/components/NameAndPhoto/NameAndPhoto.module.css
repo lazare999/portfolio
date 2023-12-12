@@ -1,0 +1,143 @@
+.container {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titleContainer {
+  width: 600px
+}
+
+.name {
+  color: var(--primary-text-color);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.name2 {
+  color: var(--Gray-3, #828282);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0px 10px 10px 0;
+}
+
+.img {
+  width: 550px;
+  height: 550px;
+  flex-shrink: 0;
+  border: 15px solid #202020;
+  border-radius: 50%;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.downloadButton {
+  width: 150px;
+  height: 42px;
+  flex-shrink: 0;
+  background: var(--Green-2, #27AE60);
+  color: #FFF;
+  margin-right: 4em;
+}
+
+.learnMoreButton {
+  width: 150px;
+  height: 42px;
+  flex-shrink: 0;
+  border: 1px solid var(--primary-text-color);
+  background: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+.light {
+  --primary-text-color: #333;
+}
+
+.dark {
+  --primary-text-color: #fff;
+}
+
+@media screen and (max-width: 1300px) {
+  .titleContainer {
+    width: 500px
+  }
+
+  .img {
+    width: 405px;
+    height: 400px;
+  }
+
+  .buttonContainer {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .titleContainer {
+    width: 500px
+  }
+
+  .img {
+    width: 405px;
+    height: 400px;
+  }
+  
+  .buttonContainer {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .titleContainer {
+    width: 400px
+  }
+
+  .img {
+    width: 265px;
+    height: 260px;
+  }
+
+  .buttonContainer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .titleContainer {
+    width: 320px
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .titleContainer {
+    width: 220px
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .img {
+    width: 150px;
+    height: 150px;
+  }
+}

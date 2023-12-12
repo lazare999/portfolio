@@ -1,0 +1,46 @@
+.name {
+  color: var(--primary-text-color);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav {
+  color: var(--primary-text-color);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 23px;
+  flex-shrink: 0;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+.header {
+  padding: 1rem 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.light {
+  --primary-text-color: #333;
+}
+
+.dark {
+  --primary-text-color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .nav {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+  }
+}
