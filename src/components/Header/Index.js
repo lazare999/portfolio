@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
-import { ThemeContext } from '../../App';
-import Toggle from 'react-toggle';
-import 'react-toggle/style.css';
-import classes from './Header.module.css';
+import React, { useContext } from "react";
+import { ThemeContext } from "../../App";
+import Toggle from "react-toggle";
+import "react-toggle/style.css";
+import classes from "./Header.module.css";
 
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -15,7 +15,7 @@ const Header = () => {
   const scrollTo = (targetPosition) => {
     window.scrollTo({
       top: targetPosition,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
@@ -29,10 +29,10 @@ const Header = () => {
         <div>
           <Toggle
             onChange={toggleTheme}
-            checked={theme === 'dark'}
+            checked={theme === "dark"}
             icons={{
-              unchecked: '🌞',
-              checked: '🌜',
+              unchecked: "🌞",
+              checked: "🌜",
             }}
           />
         </div>

@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+.nav p:hover {
+  text-decoration: underline;
+}
+
 .header {
   padding: 1rem 4.5rem;
   display: flex;

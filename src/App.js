@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 import MainPage from "./components/Main/Index";
 
-import classes from './App.module.css'
+import classes from "./App.module.css";
 
 export const ThemeContext = createContext(null);
 

@@ -7,7 +7,7 @@
 }
 
 .titleContainer {
-  width: 600px
+  width: 600px;
 }
 
 .name {
@@ -20,7 +20,7 @@
 
 .name2 {
   color: var(--Gray-3, #828282);
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -46,8 +46,8 @@
   width: 150px;
   height: 42px;
   flex-shrink: 0;
-  background: var(--Green-2, #27AE60);
-  color: #FFF;
+  background: var(--Green-2, #27ae60);
+  color: #fff;
   margin-right: 4em;
 }
 
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 1300px) {
   .titleContainer {
-    width: 500px
+    width: 500px;
   }
 
   .img {
@@ -85,14 +85,14 @@
 
 @media screen and (max-width: 750px) {
   .titleContainer {
-    width: 500px
+    width: 500px;
   }
 
   .img {
     width: 405px;
     height: 400px;
   }
-  
+
   .buttonContainer {
     height: 100px;
   }
@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 600px) {
   .titleContainer {
-    width: 400px
+    width: 400px;
   }
 
   .img {
@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 500px) {
   .titleContainer {
-    width: 320px
+    width: 320px;
   }
 
   .img {
@@ -129,7 +129,7 @@
 
 @media screen and (max-width: 350px) {
   .titleContainer {
-    width: 220px
+    width: 220px;
   }
 
   .name {
